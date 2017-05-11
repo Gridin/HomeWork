@@ -4,13 +4,27 @@
     <logicalFolder name="SourceFiles"
                    displayName="Исходные файлы"
                    projectFiles="true">
+      <itemPath>_4_03.cpp</itemPath>
+      <itemPath>_4_04.cpp</itemPath>
       <itemPath>_4_05.cpp</itemPath>
+      <itemPath>_4_06.cpp</itemPath>
+      <itemPath>_4_07.cpp</itemPath>
+      <itemPath>_4_08.cpp</itemPath>
+      <itemPath>_4_09.cpp</itemPath>
+      <itemPath>_4_10.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="HeaderFiles"
                    displayName="Файлы заголовков"
                    projectFiles="true">
-      <itemPath>HW_4_05.h</itemPath>
+      <itemPath>_4_03.h</itemPath>
+      <itemPath>_4_04.h</itemPath>
+      <itemPath>_4_05.h</itemPath>
+      <itemPath>_4_06.h</itemPath>
+      <itemPath>_4_07.h</itemPath>
+      <itemPath>_4_08.h</itemPath>
+      <itemPath>_4_09.h</itemPath>
+      <itemPath>_4_10.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Файлы ресурсов"
@@ -38,9 +52,37 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="HW_4_05.h" ex="false" tool="3" flavor2="0">
+      <item path="_4_03.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="_4_03.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="_4_04.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="_4_04.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="_4_05.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="_4_05.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="_4_06.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="_4_06.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="_4_07.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="_4_07.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="_4_08.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="_4_08.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="_4_09.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="_4_09.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="_4_10.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="_4_10.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -65,9 +107,37 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="HW_4_05.h" ex="false" tool="3" flavor2="0">
+      <item path="_4_03.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="_4_03.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="_4_04.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="_4_04.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="_4_05.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="_4_05.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="_4_06.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="_4_06.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="_4_07.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="_4_07.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="_4_08.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="_4_08.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="_4_09.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="_4_09.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="_4_10.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="_4_10.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>

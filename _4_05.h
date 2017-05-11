@@ -1,12 +1,7 @@
-#ifndef HW_4_05_H
-#define HW_4_05_H
+#ifndef _4_05_H
+#define _4_05_H
 
-void init(int[], int);
-int average(int[], int); 
-int mymain();
+void mymain();
 
-
-
-
-#endif /* HW_4_05_H */
+#endif /* _4_05_H */
 

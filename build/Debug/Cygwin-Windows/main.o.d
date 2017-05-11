@@ -1,3 +1,3 @@
-build/Debug/Cygwin-Windows/main.o: main.cpp HW_4_05.h
+build/Debug/Cygwin-Windows/main.o: main.cpp _4_03.h
 
-HW_4_05.h:
+_4_03.h:

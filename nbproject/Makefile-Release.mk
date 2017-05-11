@@ -35,7 +35,14 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/_4_03.o \
+	${OBJECTDIR}/_4_04.o \
 	${OBJECTDIR}/_4_05.o \
+	${OBJECTDIR}/_4_06.o \
+	${OBJECTDIR}/_4_07.o \
+	${OBJECTDIR}/_4_08.o \
+	${OBJECTDIR}/_4_09.o \
+	${OBJECTDIR}/_4_10.o \
 	${OBJECTDIR}/main.o
 
 
@@ -63,10 +70,45 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/homework.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/homework ${OBJECTFILES} ${LDLIBSOPTIONS}
 
+${OBJECTDIR}/_4_03.o: _4_03.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_4_03.o _4_03.cpp
+
+${OBJECTDIR}/_4_04.o: _4_04.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_4_04.o _4_04.cpp
+
 ${OBJECTDIR}/_4_05.o: _4_05.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_4_05.o _4_05.cpp
+
+${OBJECTDIR}/_4_06.o: _4_06.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_4_06.o _4_06.cpp
+
+${OBJECTDIR}/_4_07.o: _4_07.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_4_07.o _4_07.cpp
+
+${OBJECTDIR}/_4_08.o: _4_08.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_4_08.o _4_08.cpp
+
+${OBJECTDIR}/_4_09.o: _4_09.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_4_09.o _4_09.cpp
+
+${OBJECTDIR}/_4_10.o: _4_10.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_4_10.o _4_10.cpp
 
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}
